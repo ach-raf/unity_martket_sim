@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac8c382e103b88439d12bcfdd652ed8, type: 3}
+  m_Name: Cube2x2
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 132828398276996265, guid: f237835d5408029428aaad1a5906f647, type: 3}
+  width: 2
+  height: 2

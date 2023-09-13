@@ -1,0 +1,124 @@
+trackSelection = true
+<<<<<<< HEAD
+refreshSearchWindowsInPlayMode = false
+=======
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
+fetchPreview = true
+defaultFlags = 0
+keepOpen = false
+queryFolder = "Assets"
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+}
+providers = {
+<<<<<<< HEAD
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	find = {
+=======
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	asset = {
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+<<<<<<< HEAD
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	asset = {
+=======
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	find = {
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	log = {
+		active = false
+		priority = 210
+		defaultAction = null
+	}
+<<<<<<< HEAD
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	presets_provider = {
+		active = false
+		priority = -10
+=======
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
+		defaultAction = null
+	}
+}
+objectSelectors = {
+}
+recentSearches = [
+]
+searchItemFavorites = [
+]
+savedSearchesSortOrder = 0
+showSavedSearchPanel = false
+<<<<<<< HEAD
+hideTabs = false
+=======
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
+expandedQueries = [
+]
+queryBuilder = false
+ignoredProperties = "id;name;classname;imagecontentshash"
+helperWidgetCurrentArea = "all"
+<<<<<<< HEAD
+disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
+=======
+disabledIndexers = ""
+>>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
