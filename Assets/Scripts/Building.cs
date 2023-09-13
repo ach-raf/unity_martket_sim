@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 using System.Collections.Generic;
-=======
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 using UnityEngine;
 
 public class Building : MonoBehaviour, IClickable
 {
-<<<<<<< HEAD
     public BuildingDataSO buildingData; // The ScriptableObject containing the building data.
     public List<RecipeResourceSO> craftingRecipes = new(); // List of available crafting recipes.
     
@@ -22,42 +18,22 @@ public class Building : MonoBehaviour, IClickable
     {
         buildingData.width = width;
         buildingData.height = height;
-=======
-    private GameObject buildingGameObject;
-    private int x;
-    private int y;
-    private int width;
-    private int height;
-
-    public void Initialize(int width, int height)
-    {
-        this.width = width;
-        this.height = height;
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public void OnClick()
     {
-<<<<<<< HEAD
         Debug.Log(buildingData.buildingGameObject.name + " was clicked!");
         foreach (RecipeResourceSO recipe in craftingRecipes)
         {
             Craft(recipe);
         }
-=======
-        Debug.Log(buildingGameObject.name + " was clicked!");
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 
         // Implement the specific behavior you want when the tile is clicked.
     }
 
     public void OnRightClick()
     {
-<<<<<<< HEAD
         Debug.Log(buildingData.buildingGameObject.name + " was right clicked!");
-=======
-        Debug.Log(buildingGameObject.name + " was right clicked!");
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
         // Implement the specific behavior you want when the tile is right clicked.
     }
 
@@ -68,34 +44,21 @@ public class Building : MonoBehaviour, IClickable
 
     public int GetWidth()
     {
-<<<<<<< HEAD
         return buildingData.width;
-=======
-        return width;
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public int GetHeight()
     {
-<<<<<<< HEAD
         return buildingData.height;
-=======
-        return height;
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public void SetBuildingGameObject(GameObject buildingGameObject)
     {
-<<<<<<< HEAD
         this.buildingData.buildingGameObject = buildingGameObject;
-=======
-        this.buildingGameObject = buildingGameObject;
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public GameObject GetBuildingGameObject()
     {
-<<<<<<< HEAD
         return buildingData.buildingGameObject;
     }
 
@@ -143,8 +106,4 @@ public class Building : MonoBehaviour, IClickable
 
 
 
-=======
-        return buildingGameObject;
-    }
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 }

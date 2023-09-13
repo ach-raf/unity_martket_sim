@@ -1,8 +1,5 @@
 trackSelection = true
-<<<<<<< HEAD
 refreshSearchWindowsInPlayMode = false
-=======
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 fetchPreview = true
 defaultFlags = 0
 keepOpen = false
@@ -13,7 +10,6 @@ showStatusBar = false
 scopes = {
 }
 providers = {
-<<<<<<< HEAD
 	performance = {
 		active = false
 		priority = 100
@@ -25,19 +21,10 @@ providers = {
 		defaultAction = null
 	}
 	find = {
-=======
-	adb = {
-		active = false
-		priority = 2500
-		defaultAction = null
-	}
-	asset = {
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 		active = true
 		priority = 25
 		defaultAction = null
 	}
-<<<<<<< HEAD
 	profilermarkers = {
 		active = false
 		priority = 100
@@ -54,14 +41,6 @@ providers = {
 		defaultAction = null
 	}
 	asset = {
-=======
-	store = {
-		active = true
-		priority = 100
-		defaultAction = null
-	}
-	find = {
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 		active = true
 		priority = 25
 		defaultAction = null
@@ -71,7 +50,6 @@ providers = {
 		priority = 210
 		defaultAction = null
 	}
-<<<<<<< HEAD
 	store = {
 		active = true
 		priority = 100
@@ -80,21 +58,6 @@ providers = {
 	presets_provider = {
 		active = false
 		priority = -10
-=======
-	packages = {
-		active = true
-		priority = 90
-		defaultAction = null
-	}
-	performance = {
-		active = false
-		priority = 100
-		defaultAction = null
-	}
-	scene = {
-		active = true
-		priority = 50
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 		defaultAction = null
 	}
 }
@@ -106,19 +69,12 @@ searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
 showSavedSearchPanel = false
-<<<<<<< HEAD
 hideTabs = false
-=======
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
 expandedQueries = [
 ]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
-<<<<<<< HEAD
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
-=======
-disabledIndexers = ""
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour, IClickable
 {
-<<<<<<< HEAD
     public Material occupiedMaterial;
     private GameObject tileGameObject;
     private Renderer objectRenderer;
@@ -27,17 +26,6 @@ public class Tile : MonoBehaviour, IClickable
         //Debug.Log(tileGameObject.name + " was clicked!");
         
         EventManager.OnTileClicked(this);
-=======
-    private GameObject tileGameObject;
-    private bool isOccupied = false;
-    private int x;
-    private int y;
-    public void OnClick()
-    {
-        Debug.Log(tileGameObject.name + " was clicked!");
-        
-        // Implement the specific behavior you want when the tile is clicked.
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public void OnRightClick()
@@ -46,15 +34,9 @@ public class Tile : MonoBehaviour, IClickable
         // Implement the specific behavior you want when the tile is right clicked.
     }
 
-<<<<<<< HEAD
     public void ChangeMaterial()
     {
         objectRenderer.material = occupiedMaterial;
-=======
-    public void ChangeColor(Color color)
-    {
-        tileGameObject.GetComponent<SpriteRenderer>().color = color;
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public void ChangeToRandomColor()
@@ -62,11 +44,7 @@ public class Tile : MonoBehaviour, IClickable
         float r = Random.Range(0.0f, 1.0f);
         float g = Random.Range(0.0f, 1.0f);
         float b = Random.Range(0.0f, 1.0f);
-<<<<<<< HEAD
         //ChangeColor(new Color(r, g, b));
-=======
-        ChangeColor(new Color(r, g, b));
->>>>>>> f6fd120894f71c1625b5e8ddf5eadf906e769f04
     }
 
     public void SetTileGameObject(GameObject tileGameObject)
